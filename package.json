@@ -1,6 +1,6 @@
 {
   "name": "content-diff",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tool for checking a page is a valid format by profiling a type of web page and then testing if a page matches that profile.",
   "main": "index.js",
   "scripts": {
