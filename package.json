@@ -1,6 +1,6 @@
 {
   "name": "content-diff",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tool for checking a page is a valid format by profiling a type of web page and then testing if a page matches that profile.",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,27 @@
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
     "@babel/preset-env": "^7.12.10"
+  },
+  "contributors": [
+    {
+      "name": "William Overton",
+      "url": "https://github.com/williamoverton/content-diff/graphs/contributors"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/williamoverton/content-diff"
+  },
+  "keywords": [
+    "diff",
+    "web",
+    "request",
+    "check",
+    "profile",
+    "structure",
+    "html"
+  ],
+  "engines": {
+    "node": ">=10"
   }
 }
