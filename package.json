@@ -1,0 +1,31 @@
+{
+  "name": "content-diff",
+  "version": "1.0.3",
+  "description": "A tool for checking a page is a valid format by profiling a type of web page and then testing if a page matches that profile.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env DEBUG=monitor:* nodemon --exec babel-node src/index.js",
+    "prepublish": "babel src --out-dir lib"
+  },
+  "author": "William Overton <willovertonuk@gmail.com>",
+  "bin": {
+    "content-diff": "./lib/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.1",
+    "node-html-parser": "^2.0.0",
+    "nodemon": "^2.0.6",
+    "regenerator-runtime": "^0.13.7",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10"
+  }
+}
